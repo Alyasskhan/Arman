@@ -61,7 +61,7 @@ def o():
         ('https://www.facebook.com/profile.php?id=100028315179402')
         return None
     if None == '3':
-        os.system('https://www.facebook.com/profile.php?id=100028315179402)
+        os.system('https://www.facebook.com/profile.php?id=100028315179402')
         return None
     if None == '4':
         os.system('https://www.facebook.com/profile.php?id=100028315179402')
